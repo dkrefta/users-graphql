@@ -2,11 +2,16 @@
   "name": "users",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit'",
+    "json:server": "json-server --watch db.json"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
     "graphql": "^14.0.2",
+    "json-server": "^0.14.0",
     "lodash": "^4.17.11"
   }
 }
